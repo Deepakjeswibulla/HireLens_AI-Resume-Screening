@@ -44,6 +44,7 @@ class Settings:
     "http://localhost:4173",
     "http://127.0.0.1:4173",
     "https://deepakjeswibulla.github.io",
+    "https://deepakjeswibulla.github.io/HireLens_AI-Resume-Screening/",
 ]
 
     log_level: str = os.getenv("HIRELENS_LOG_LEVEL", "INFO")
