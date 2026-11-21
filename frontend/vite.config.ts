@@ -1,3 +1,4 @@
+
 import { defineConfig } from "vitest/config";
 import react from "@vitejs/plugin-react";
 import path from "node:path";
@@ -5,6 +6,7 @@ import path from "node:path";
 const BUILD_STAMP = new Date().toISOString().slice(0, 16).replace("T", " ");
 
 export default defineConfig({
+  base: "/HireLens_AI-Resume-Screening/",
   plugins: [react()],
   resolve: {
     alias: { "@": path.resolve(__dirname, "./src") },
