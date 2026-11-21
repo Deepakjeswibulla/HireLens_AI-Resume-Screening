@@ -39,11 +39,12 @@ class Settings:
     disable_semantic_model: bool = os.getenv("HIRELENS_DISABLE_MODEL", "0") == "1"
 
     cors_origins: list[str] = [
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-        "http://localhost:4173",
-        "http://127.0.0.1:4173",
-    ]
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:4173",
+    "http://127.0.0.1:4173",
+    "https://deepakjeswibulla.github.io",
+]
 
     log_level: str = os.getenv("HIRELENS_LOG_LEVEL", "INFO")
 
