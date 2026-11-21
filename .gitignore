@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local data: never commit real resumes or the local database
+backend/hirelens.db
+backend/hirelens.db-*
+backend/data/
+backend/uploads/
+*.sqlite
+*.sqlite3
+
+# Hugging Face cache if placed locally
+.hf/
+.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

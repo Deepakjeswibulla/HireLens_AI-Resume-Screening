@@ -1,0 +1,27 @@
+Senior Backend Engineer - Northwind Labs
+
+About the role
+We build payment infrastructure for 4,000+ merchants. You will own the services behind
+onboarding, ledgers and reconciliation.
+
+Responsibilities
+- Design and build production REST APIs with Python and FastAPI
+- Own PostgreSQL schema design, query performance and migrations
+- Containerise services with Docker and deploy to AWS
+- Partner with product and data teams on new payment flows
+- Review code and mentor junior engineers
+
+Requirements
+- 4+ years of professional backend engineering experience
+- Strong Python and FastAPI experience in production
+- Solid SQL and PostgreSQL knowledge, including query optimisation
+- Experience designing REST APIs consumed by web and mobile clients
+- Hands-on Docker experience and familiarity with AWS (ECS, S3, RDS)
+- Bachelor's degree in Computer Science or a related field
+
+Preferred qualifications
+- Kubernetes in production
+- Redis for caching and queues
+- CI/CD pipelines (GitHub Actions)
+- GraphQL experience
+- Experience in fintech or payments
